@@ -9,16 +9,6 @@
 	font-style: normal;
 }
 
-@font-face {
-	font-family: 'Blokk';
-	src: url('../fonts/blokk/BLOKKRegular.eot');
-	src: url('../fonts/blokk/BLOKKRegular.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/blokk/BLOKKRegular.woff') format('woff'),
-	url('../fonts/blokk/BLOKKRegular.svg#BLOKKRegular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
 body {
 	position: relative;
 }
@@ -281,7 +271,7 @@ p.dummy-text:nth-child(3) {
 	padding: 10px 0;
 	color: #ddd;
 	font-size: 1em;
-	font-family: 'Blokk',Arial, serif;
+	font-family: Arial, serif;
 }
 
 .dummy-text:last-child {
